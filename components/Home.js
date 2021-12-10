@@ -18,6 +18,7 @@ const Home = ({ navigation }) => {
   return (
     <View style={styles.home}>
       <View style={styles.header}>
+      
         <StatusBar barStyle="light-content" backgroundColor="#FFBF00" />
         <SearchBar
           placeholder="Search for food item"
